@@ -72,3 +72,14 @@ var square = Math.pow(number, 2);
 
 // Display the result
 console.log("The square of " + number + " is " + square);
+
+
+// Generate a random number between 1 and 10
+  var singleNumber = prompt("Pleas enter the single value")
+var number = Math.floor(Math.random() * 10) + 1;
+
+// Calculate the square of the number using Math.pow() method
+var square = Math.pow(number, 2);
+
+// Display the result
+console.log("The square of " + number + " is " + square);
